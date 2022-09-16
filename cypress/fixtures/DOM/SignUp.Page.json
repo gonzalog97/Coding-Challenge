@@ -1,0 +1,21 @@
+{
+    "urlBase":"https://www.demoblaze.com/",
+    "SignUpBtn":"#signin2",
+    "username":{
+        "input":"#sign-username",
+        "data":"t3stU3s3r123"
+    },
+    "password":{
+        "input":"#sign-password",
+        "data":"psw1234"
+    },
+    "button":{
+        "Submit":"Sign Up",
+        "Cancel":"Close"
+    },
+    "message":{
+        "success":"Sign up successful.",
+        "Field":"Please fill out Username and Password.",
+        "alredyExist":"This user already exist."
+    }
+}
