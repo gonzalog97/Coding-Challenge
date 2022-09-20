@@ -34,7 +34,7 @@ describe("Registro de usuario",()=>{
                     failOnStatusCode: false, 
                     body: the.data.invalid
                     }).then( (response) => {
-                        expect(response.status).to.eq(400)
+                        expect(response.status).to.eq(the.status.fail)
                         expect(response.body.error).to.contain(the.errorMsj)
                     })
             })
