@@ -3,7 +3,7 @@
     "endPointRegister":"api/register",
     "status":{
         "sucess":200,
-        "fail":"400: Bad Request"
+        "fail":400
     },
     "data":{
         "valid":{
