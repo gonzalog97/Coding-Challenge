@@ -22,5 +22,9 @@ describe("TS : Usuario agrega un item al SP",()=>{
         cy.on('window:alert',(t)=>{
             expect(t).to.contains('Product added.');
          })
+        cy.contains("Cart").click()
+        cy.wait(1000)
+        cy.contains("Products").should('be.visible')
+        cy.get(".sucess").should('exist')
     })
 })
