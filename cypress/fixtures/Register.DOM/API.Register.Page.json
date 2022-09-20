@@ -1,0 +1,19 @@
+{
+    "urlBase":"https://reqres.in/",
+    "endPointRegister":"api/register",
+    "status":{
+        "sucess":200,
+        "fail":"400: Bad Request"
+    },
+    "data":{
+        "valid":{
+            "email": "eve.holt@reqres.in",
+            "password": "pistol"
+        },
+        "invalid":{
+            "username" :"invaliduser",
+            "password": "invalidPssw"
+        }
+    },
+    "errorMsj": "Note: Only defined users succeed registration"
+}
