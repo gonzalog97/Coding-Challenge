@@ -1,7 +1,7 @@
 {
   "name": "coding-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000C\u0000o\u0000d\u0000i\u0000n\u0000g\u0000-\u0000C\u0000h\u0000a\u0000l\u0000l\u0000e\u0000n\u0000g\u0000e\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "test": "cypress open"
@@ -9,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^10.8.0"
-  }
+    "cypress": "^10.8.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggarcia0/Coding-Challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ggarcia0/Coding-Challenge/issues"
+  },
+  "homepage": "https://github.com/ggarcia0/Coding-Challenge#readme"
 }
